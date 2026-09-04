@@ -1,0 +1,224 @@
+
+/* ========================================
+   MY OC WIKI — MAIN STYLESHEET
+   ======================================== */
+
+/* ---------- GENERAL ---------- */
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #fff8fb;
+    color: #443b43;
+
+    /* Friendly, rounded font */
+    font-family: "Trebuchet MS", "Arial Rounded MT Bold", Arial, sans-serif;
+
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+
+/* ---------- MAIN CONTENT ---------- */
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+
+
+/* ---------- HEADINGS ---------- */
+
+h1 {
+    color: #d86b91;
+    font-size: 42px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #a85c7a;
+    font-size: 27px;
+    margin-top: 35px;
+    border-bottom: 2px dashed #e8b8c9;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #b66a88;
+    font-size: 21px;
+}
+
+
+/* ---------- PARAGRAPHS ---------- */
+
+p {
+    max-width: 750px;
+}
+
+
+/* ---------- LINKS ---------- */
+
+a {
+    color: #c45f87;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e68aad;
+    text-decoration: underline;
+}
+
+
+/* ---------- LISTS ---------- */
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin: 6px 0;
+}
+
+
+/* ---------- IMAGES ---------- */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+
+/* ---------- WIKI CARDS ---------- */
+
+.card {
+    background-color: #ffffff;
+
+    border: 2px solid #f0cbd8;
+    border-radius: 15px;
+
+    padding: 20px;
+    margin: 20px 0;
+
+    box-shadow: 0 4px 10px rgba(150, 100, 120, 0.08);
+}
+
+.card:hover {
+    box-shadow: 0 6px 14px rgba(150, 100, 120, 0.14);
+}
+
+
+/* ---------- CHARACTER / LOCATION INFO BOX ---------- */
+
+.infobox {
+    float: right;
+
+    width: 280px;
+
+    background-color: #fff0f5;
+
+    border: 2px solid #e6b6c8;
+    border-radius: 15px;
+
+    padding: 18px;
+    margin: 0 0 25px 30px;
+}
+
+.infobox h2 {
+    margin-top: 0;
+    border-bottom: none;
+    text-align: center;
+}
+
+.infobox img {
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius: 10px;
+}
+
+
+/* ---------- TAGS ---------- */
+
+.tag {
+    display: inline-block;
+
+    background-color: #f6d5e1;
+    color: #74485a;
+
+    border-radius: 20px;
+
+    padding: 4px 12px;
+    margin: 3px;
+
+    font-size: 14px;
+}
+
+
+/* ---------- NAVIGATION ---------- */
+
+nav {
+    background-color: #ffffff;
+
+    border: 2px solid #f0cbd8;
+    border-radius: 15px;
+
+    padding: 12px 18px;
+
+    margin-bottom: 35px;
+}
+
+nav a {
+    margin-right: 20px;
+}
+
+
+/* ---------- BACK BUTTON ---------- */
+
+.back {
+    display: inline-block;
+
+    margin-top: 30px;
+
+    background-color: #f3c5d6;
+    color: #663d4d;
+
+    padding: 8px 15px;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+}
+
+.back:hover {
+    background-color: #eaa9c2;
+    text-decoration: none;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 25px 18px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .infobox {
+        float: none;
+        width: auto;
+        margin: 20px 0;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 10px 5px 0;
+    }
+}
